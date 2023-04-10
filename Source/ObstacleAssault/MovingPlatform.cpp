@@ -15,6 +15,14 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
+   
+    //MyVector.X = MyX;
+	
+	//MyVector.Y = MyY;
+	
+	//MyVector.Z = MyZ;
+
+    
 	
 }
 
@@ -22,6 +30,10 @@ void AMovingPlatform::BeginPlay()
 void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+    MyVector.X= MyVector.X + 5;
+
+	SetActorLocation(MyVector);
 
 }
 
