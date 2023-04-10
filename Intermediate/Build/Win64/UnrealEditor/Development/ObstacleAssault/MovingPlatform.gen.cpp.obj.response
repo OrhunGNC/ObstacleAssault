@@ -1,4 +1,4 @@
-"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT\MovingPlatform.gen.cpp"
+"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT\MovingPlatform.gen.cpp"
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
@@ -269,8 +269,8 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT"
-/I "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Source"
+/I "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Inc\ObstacleAssault\UHT"
+/I "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Source"
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -280,12 +280,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\Definitions.ObstacleAssault.h"
-/Yu"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\MovingPlatform.gen.cpp.obj"
-/sourceDependencies "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\MovingPlatform.gen.cpp.dep.json"
+/FI"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\Definitions.ObstacleAssault.h"
+/Yu"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\MovingPlatform.gen.cpp.obj"
+/sourceDependencies "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleAssault\MovingPlatform.gen.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

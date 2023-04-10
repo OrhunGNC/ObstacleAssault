@@ -1,4 +1,4 @@
-"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp"
+"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp"
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
@@ -283,10 +283,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/Yc"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-/sourceDependencies "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault-main\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.dep.json"
+/Yc"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+/sourceDependencies "C:\Users\pc\Documents\Unreal Projects\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.dep.json"
 /Zc:inline
 /nologo
 /Oi
