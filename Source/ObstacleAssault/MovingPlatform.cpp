@@ -23,7 +23,8 @@ void AMovingPlatform::BeginPlay()
 	//MyVector.Z = MyZ;
 
     StartLocation = GetActorLocation();
-	
+
+	UE_LOG(LogTemp, Warning, TEXT("Configured Moved Distance : %f") ,MovedDistance );
 }
 
 // Called every frame
@@ -39,7 +40,15 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 	//SetActorLocation(LocalVector);
 
-	FVector CurrentLocation = GetActorLocation();
+	MovePlatform(DeltaTime);
+	
+	RotatePlatform(DeltaTime);
+
+}
+
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
+FVector CurrentLocation = GetActorLocation();
 
 	CurrentLocation = CurrentLocation + (PlatformVelocity*DeltaTime) ;
 
@@ -48,13 +57,19 @@ void AMovingPlatform::Tick(float DeltaTime)
     float DistanceFloat=FVector ::Dist(CurrentLocation,StartLocation);
 
 	if(DistanceFloat> MovedDistance){
+		float OverShoot= DistanceFloat - MovedDistance;
+		FString MyString = GetName();
+		UE_LOG(LogTemp, Display, TEXT("%s  Over Shoot: %f"),*MyString, OverShoot);
 		FVector MoveDirection=PlatformVelocity.GetSafeNormal();
 		StartLocation= StartLocation + MoveDirection*MovedDistance;
 		SetActorLocation(StartLocation);
 		PlatformVelocity= -PlatformVelocity;
 	}
 	
-	
+}
 
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	UE_LOG(LogTemp, Display, TEXT("%s Rotating..."),*GetName());
 }
 
